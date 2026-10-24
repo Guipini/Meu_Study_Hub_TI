@@ -46,4 +46,10 @@ A convenção é número + snake_case, a mesma planejada na Etapa Inicial do Boo
 
 1. **Etapa Inicial:** planejamento (perfil, matriz de disciplinas e arquitetura de pastas). Material em `01_Apresentacao_e_Perfil/`.
 2. **Etapa Intermediária:** este repositório, publicado com GitHub Pages e integrado ao LinkedIn.
-3. **Etapa Final:** a definir.
+3. **Etapa Final:** plano de implantação do PortfolioHUB, com políticas de segurança e controle de acesso (ruleset da `main`, secret scanning, `CODEOWNERS`, `SECURITY.md`, `CONTRIBUTING.md`), documentado em PDF com apoio do Google Gemini.
+
+## Governança e segurança
+
+- A branch `main` está protegida por ruleset: não aceita force-push nem exclusão.
+- Secret scanning e push protection estão ativados, e o relato privado de vulnerabilidades está habilitado.
+- O autor é o único colaborador. As regras de segurança e de conteúdo estão em [SECURITY.md](SECURITY.md) e o fluxo de trabalho (branch, commits, pull request) em [CONTRIBUTING.md](CONTRIBUTING.md).
