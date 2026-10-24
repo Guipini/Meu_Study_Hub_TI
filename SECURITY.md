@@ -7,6 +7,7 @@ Este repositório é um portfólio acadêmico público e não contém código em
 - **Repositório público**, para que a correção e o LinkedIn consigam acessá-lo.
 - **Branch `main` protegida** por ruleset: não aceita force-push nem exclusão.
 - **Secret scanning e push protection** ativados: o GitHub bloqueia o envio de chaves e tokens.
+- **Autenticação em dois fatores** ativada na conta do autor.
 - **CODEOWNERS** define o autor como responsável por todos os arquivos.
 
 ## Regras de conteúdo
